@@ -1,0 +1,28 @@
+# Node / Frontend dependencies & build artifacts (keep dist if needed or ignore)
+node_modules/
+frontend/node_modules/
+.DS_Store
+*.log
+
+# Python / Backend
+__pycache__/
+backend/__pycache__/
+backend/routers/__pycache__/
+backend/core/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+backend/.env
+venv/
+.venv/
+
+# SQLite Database
+*.db
+backend/*.db
+project.zip
+
+# IDE / Gemini artifacts
+.vscode/
+.idea/
+scratch/
